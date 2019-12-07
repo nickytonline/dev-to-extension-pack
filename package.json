@@ -1,0 +1,56 @@
+{
+  "name": "dev-to-extension-pack",
+  "displayName": "dev-to-extension-pack",
+  "description": "VS Code extensions used to build dev.to",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "donjayamanne.git-extension-pack",
+    "esbenp.prettier-vscode",
+    "firefox-devtools.vscode-firefox-debug",
+    "MS-vsliveshare.vsliveshare-pack",
+    "msjsdiag.debugger-for-chrome",
+    "msjsdiag.debugger-for-edge",
+    "rebornix.ruby",
+    "waderyan.nodejs-extension-pack"
+  ],
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 80
+  },
+  "author": {
+    "email": "nick@iamdeveloper.com",
+    "name": "Nick Taylor",
+    "url": "https://iamdeveloper.com"
+  },
+  "publisher": "nickytonline",
+  "icon": "images/dev-to.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickytonline/dev-to-extension-pack.git"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  }
+}
