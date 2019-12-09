@@ -2,7 +2,7 @@
   "name": "dev-to-extension-pack",
   "displayName": "dev-to-extension-pack",
   "description": "VS Code extensions used to build dev.to",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.40.0"
   },
