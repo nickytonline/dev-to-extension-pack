@@ -1,6 +1,6 @@
 {
   "name": "dev-to-extension-pack",
-  "displayName": "dev-to-extension-pack",
+  "displayName": "The Unofficial DEV Extension Pack",
   "description": "VS Code extensions used to build dev.to",
   "version": "0.1.0",
   "engines": {
