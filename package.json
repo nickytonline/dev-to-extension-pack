@@ -19,7 +19,8 @@
     "rebornix.ruby",
     "waderyan.nodejs-extension-pack",
     "42Crunch.vscode-openapi",
-    "philosowaffle.openapi-designer"
+    "philosowaffle.openapi-designer",
+    "naumovs.color-highlight"
   ],
   "scripts": {
     "precommit": "lint-staged"
