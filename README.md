@@ -14,5 +14,6 @@ The following extensions are in this extension pack:
 - [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack)
 - [OpenAPI (Swagger) Editor](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi)
 - [openapi-designer](https://marketplace.visualstudio.com/items?itemName=philosowaffle.openapi-designer)
+- [Color highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
 If there is an extension/extension pack that would benefit all developers when working on the [DEV repository](https://github.com/thepracticaldev/dev.to), then [send us a PR](https://github.com/nickytonline/dev-to-extension-pack/compare) with your suggestions.😎
